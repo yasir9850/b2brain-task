@@ -1,0 +1,669 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar-cont {
+    position: absolute;
+    width: 239px;
+    height: 1466px;
+    left: 0px;
+    top: 0px;
+
+    /* Neutral / White */
+
+    background: #FFFFFF;
+    box-shadow: 4px 0px 16px rgba(30, 30, 30, 0.08);
+}
+
+.path-img-cont {
+    position: absolute;
+    height: 31px;
+    left: 15px;
+    top: 15px;
+
+    box-shadow: 1px 1px 0px rgba(102, 111, 130, 0.175243);
+    opacity: 1;
+}
+
+.path-img {
+    height: 31px;
+    width: 35px;
+    left: 15px;
+    top: 87px;
+    border-radius: 0px;
+
+}
+
+.brain-h {
+    position: absolute;
+    width: 82px;
+    height: 30px;
+    left: 72px;
+    top: 14px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.home-img-cont {
+    position: absolute;
+    left: 15px;
+    top: 92px;
+    bottom: 13.64%;
+
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.dashboard-h {
+    height: 16px;
+    width: 18px;
+    left: 0px;
+    top: 3px;
+    border-radius: nullpx;
+
+}
+
+.dashborad-h-cont {
+    position: absolute;
+    left: 50px;
+    right: 104px;
+    top: 89px;
+    bottom: 0%;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+}
+
+.dashboard-h {
+    height: 22px;
+    width: 85px;
+    left: 35px;
+    top: 0px;
+    border-radius: nullpx;
+
+
+}
+
+.star-img-cont {
+    position: absolute;
+    left: 15px;
+
+    top: 134px;
+
+
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.star-img {
+    height: 16px;
+    width: 18px;
+    left: 0px;
+    top: 3px;
+    border-radius: nullpx;
+
+}
+
+.intes-cont {
+    position: absolute;
+    left: 50px;
+
+    top: 131px;
+
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.intes-h {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.user-img-cont {
+    position: absolute;
+    left: 15px;
+
+    top: 176px;
+
+
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.user-img {
+    height: 16px;
+    width: 18px;
+    left: 0px;
+    top: 3px;
+    border-radius: nullpx;
+
+
+}
+
+.unread1 {
+    position: absolute;
+    width: 57px;
+    height: 16px;
+    left: 168px;
+    top: 134px;
+
+    background: #FF7474;
+    border-radius: 22px;
+}
+
+.unreadtext1 {
+    position: absolute;
+    top: 2px;
+    left: 9px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.unread2 {
+
+    position: absolute;
+    width: 57px;
+    height: 16px;
+    left: 168px;
+    top: 177px;
+
+    background: #FF7474;
+    border-radius: 22px;
+}
+
+.unreadtext2 {
+    position: absolute;
+    top: 2px;
+    left: 9px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.leads-cont {
+    position: absolute;
+    top: 173px;
+    left: 50px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.leads-h {
+    height: 22px;
+    width: 41px;
+    left: 35px;
+    top: 0px;
+    border-radius: nullpx;
+
+}
+
+.build-img-cont {
+
+    position: absolute;
+    left: 15px;
+    top: 218px;
+
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.build-img {
+    height: 16px;
+    width: 14px;
+    left: 0px;
+    top: 3px;
+    border-radius: nullpx;
+
+}
+
+.account-h-cont {
+    position: absolute;
+    left: 50px;
+    top: 216px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.account-h {
+    height: 22px;
+    width: 71px;
+    left: 35px;
+    top: 0px;
+    border-radius: nullpx;
+
+}
+
+.chevron-img-cont {
+    position: absolute;
+    left: 211px;
+    top: 217px;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.chevron-img {
+    height: 16px;
+    width: 14px;
+    left: 196px;
+    top: 2px;
+    border-radius: nullpx;
+    border: none;
+    cursor: pointer;
+}
+
+.accountsub-cont {
+    position: absolute;
+    width: 129px;
+    height: 87px;
+    left: 50px;
+    top: 247px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 209.1%;
+    /* or 29px */
+
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+.yaa{
+    position: absolute;
+    top: -100px;
+}
+.bbb{
+    position: absolute;
+    top: -100px;
+}
+
+.v-line1 {
+    position: absolute;
+    width: 1px;
+    height: 86px;
+    left: 22px;
+    top: 247px;
+
+    background: #DBE0E8;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.cog-img-cont {
+    position: absolute;
+    left: 15px;
+    top: 367px;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.cog-img {
+    height: 16px;
+    width: 16px;
+    left: 0px;
+    top: 3px;
+    border-radius: nullpx;
+   
+    
+}
+
+.prefrence-h-cont {
+    position: absolute;
+    left: 50px;
+    top: 367px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.prefrence-h {
+    height: 22px;
+    width: 90px;
+    left: 35px;
+    top: 0px;
+    border-radius: nullpx;
+
+}
+
+.chevron-img2-cont {
+    position: absolute;
+    left: 211px;
+    top: 367px;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.chevron-img2 {
+    /* height: 16px;
+width: 14px;
+left: 196px;
+top: 2px;
+border-radius: nullpx; */
+border: none;
+    cursor: pointer;
+}
+
+.v-line2 {
+    position: absolute;
+    width: 1px;
+    height: 86px;
+    left: 22px;
+    top: 396px;
+
+    background: #DBE0E8;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.prefrencesub-cont {
+    position: absolute;
+    width: 110px;
+    height: 87px;
+    left: 50px;
+    top: 396px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 209.1%;
+    /* or 29px */
+
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+
+.link-img-cont {
+    position: absolute;
+    left: 15px;
+    top: 516px;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.link-img {
+    height: 16px;
+    width: 16px;
+    left: 0px;
+    top: 3px;
+    border-radius: nullpx;
+
+}
+
+.integeration-cont {
+    position: absolute;
+    left: 50px;
+    top: 513px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.integeration--h {
+    height: 22px;
+    width: 91px;
+    left: 35px;
+    top: 0px;
+    border-radius: nullpx;
+
+}
+
+.users-img-cont {
+    position: absolute;
+    left: 15px;
+    top: 558px;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.users-img {
+    height: 16px;
+    width: 20px;
+    left: 0px;
+    top: 3px;
+    border-radius: nullpx;
+
+}
+
+.teams-cont {
+    position: absolute;
+    left: 50px;
+    right: 62.5%;
+    top: 555px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.teams--h {
+    height: 22px;
+    width: 40px;
+    left: 35px;
+    top: 0px;
+    border-radius: nullpx;
+
+}
+
+.comments-img-cont {
+    position: absolute;
+    left: 15px;
+    top: 600px;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 1;
+}
+
+.comments-img {
+    height: 16px;
+    width: 18px;
+    left: 0px;
+    top: 3px;
+    border-radius: nullpx;
+
+}
+
+.help-cont {
+    position: absolute;
+    left: 50px;
+    right: 29%;
+    top: 597px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.help-h {
+    height: 22px;
+    width: 107px;
+    left: 35px;
+    top: 0px;
+    border-radius: nullpx;
+
+}
+.one{
+    position: absolute;
+    top: 117px;
+}
